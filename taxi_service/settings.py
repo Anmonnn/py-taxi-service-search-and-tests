@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "debug_toolbar",
     "crispy_forms",
-    "crispy_bootstrap4",
+    "crispy_bootstrap5",
     "taxi",
 ]
 
@@ -75,7 +75,8 @@ TEMPLATES = [
     },
 ]
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 WSGI_APPLICATION = "taxi_service.wsgi.application"
 
